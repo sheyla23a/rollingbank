@@ -1,5 +1,7 @@
 .imgCarouselInicio{
-    width: 100vw;
     height: 450px;
     object-fit: cover;
+}
+.iconosCardInicio{
+    font-size: 40px;
 }
