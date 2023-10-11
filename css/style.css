@@ -6,3 +6,24 @@
     font-family: 'Titan One', sans-serif;
     padding: 1em;
 }
+
+.El-equipo{
+    margin-bottom: 5em;
+}
+
+@media all and (max-width: 767px){
+    .Banner{
+        height: 18vh;
+    }
+}
+
+@media all and (min-width:767px) and (max-width:992px){
+    .Banner{
+        height: 15vh;
+    }
+    .Banner h2{
+        padding: 2em;
+        font-size: 100px;
+    }
+    
+}
