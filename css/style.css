@@ -1,7 +1,14 @@
+/* inicio */
 .imgCarouselInicio{
     height: 450px;
     object-fit: cover;
 }
 .iconosCardInicio{
+    font-size: 40px;
+}
+.imgTelefonoInicio{
+    width: 30%;
+}
+.iconosSeguridad{
     font-size: 40px;
 }
