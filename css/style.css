@@ -1,0 +1,8 @@
+.Banner{
+    height: 20vh;
+}
+
+.Banner h2{
+    font-family: 'Titan One', sans-serif;
+    padding: 1em;
+}
