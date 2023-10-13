@@ -1,3 +1,40 @@
+ QuienesSomos
+.Banner{
+    height: 20vh;
+}
+
+.Banner h2{
+    font-family: 'Titan One', sans-serif;
+    padding: 1em;
+}
+
+.El-equipo{
+    margin-bottom: 5em;
+}
+
+@media all and (max-width: 767px) {
+    .Banner {
+      text-align: center; 
+      height: auto; 
+    }
+  
+    .Banner h2 {
+      text-align: center; 
+      margin: 0; 
+    }
+  }
+  
+
+@media all and (min-width:767px) and (max-width:992px){
+    .Banner{
+        height: 15vh;
+    }
+    .Banner h2{
+    
+        font-size: 100px;
+    }
+    
+  
 /* inicio */
 .imgCarouselInicio{
     height: 450px;
