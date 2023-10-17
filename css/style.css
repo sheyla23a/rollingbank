@@ -13,20 +13,20 @@
 }
 
 /* seguridad */
-.tamanioTituloCardSeguridad{
+.tamanioTituloSeguridad{
     font-size: 16px;
 }
 
-.tamanioTxtCardSeguridad{
+.tamanioTxtSeguridad{
     font-size: 12px;
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
     /* seguridad */
-    .tamanioTituloCardSeguridad{
+    .tamanioTituloSeguridad{
         font-size: 17px;
     }
-    .tamanioTxtCardSeguridad{
+    .tamanioTxtSeguridad{
         font-size: 13px;
     }
 }
@@ -52,30 +52,30 @@
         font-size: 100px;
     }
     /* seguridad */
-    .tamanioTituloCardSeguridad{
+    .tamanioTituloSeguridad{
         font-size: 20px;
     }
-    .tamanioTxtCardSeguridad{
+    .tamanioTxtSeguridad{
         font-size: 14px;
     }
 }
 
 @media all and (min-width:992px) and (max-width:1200px){
     /* seguridad */
-    .tamanioTituloCardSeguridad{
+    .tamanioTituloSeguridad{
         font-size: 22px;
     }
-    .tamanioTxtCardSeguridad{
+    .tamanioTxtSeguridad{
         font-size: 14px;
     }
 }
 
 @media all and (min-width:1200px){
     /* seguridad */
-    .tamanioTituloCardSeguridad{
+    .tamanioTituloSeguridad{
         font-size: 24px;
     }
-    .tamanioTxtCardSeguridad{
+    .tamanioTxtSeguridad{
         font-size: 17px;
     }
 }
