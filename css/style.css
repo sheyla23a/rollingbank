@@ -12,6 +12,25 @@
     margin-bottom: 5em;
 }
 
+/* seguridad */
+.tamanioTituloCardSeguridad{
+    font-size: 16px;
+}
+
+.tamanioTxtCardSeguridad{
+    font-size: 12px;
+}
+
+@media all and (min-width:576px) and (max-width:767px) {
+    /* seguridad */
+    .tamanioTituloCardSeguridad{
+        font-size: 17px;
+    }
+    .tamanioTxtCardSeguridad{
+        font-size: 13px;
+    }
+}
+
 @media all and (max-width: 767px) {
     .Banner {
       text-align: center; 
@@ -23,7 +42,6 @@
       margin: 0; 
     }
   }
-  
 
 @media all and (min-width:767px) and (max-width:992px){
     .Banner{
@@ -33,7 +51,34 @@
     
         font-size: 100px;
     }
-}    
+    /* seguridad */
+    .tamanioTituloCardSeguridad{
+        font-size: 20px;
+    }
+    .tamanioTxtCardSeguridad{
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width:992px) and (max-width:1200px){
+    /* seguridad */
+    .tamanioTituloCardSeguridad{
+        font-size: 22px;
+    }
+    .tamanioTxtCardSeguridad{
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width:1200px){
+    /* seguridad */
+    .tamanioTituloCardSeguridad{
+        font-size: 24px;
+    }
+    .tamanioTxtCardSeguridad{
+        font-size: 17px;
+    }
+}
   
 /* inicio */
 .imgCarouselInicio{
