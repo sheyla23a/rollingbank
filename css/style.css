@@ -1,4 +1,4 @@
- QuienesSomos
+ /*QuienesSomos*/
 .Banner{
     height: 20vh;
 }
@@ -12,6 +12,25 @@
     margin-bottom: 5em;
 }
 
+/* seguridad */
+.tamanioTituloSeguridad{
+    font-size: 16px;
+}
+
+.tamanioTxtSeguridad{
+    font-size: 12px;
+}
+
+@media all and (min-width:576px) and (max-width:767px) {
+    /* seguridad */
+    .tamanioTituloSeguridad{
+        font-size: 17px;
+    }
+    .tamanioTxtSeguridad{
+        font-size: 13px;
+    }
+}
+
 @media all and (max-width: 767px) {
     .Banner {
       text-align: center; 
@@ -23,7 +42,6 @@
       margin: 0; 
     }
   }
-  
 
 @media all and (min-width:767px) and (max-width:992px){
     .Banner{
@@ -34,7 +52,7 @@
         font-size: 100px;
     }
     
-}
+} 
 /* inicio */
 .imgCarouselInicio{
     height: 450px;
