@@ -48,3 +48,28 @@ QuienesSomos .Banner {
 .iconoSeccionSeguridad {
   margin: 0;
 }
+
+.TituloBanner h2{
+  font-family: 'Titan One', sans-serif;
+}
+
+.Tablas i{
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+@media all and (max-width: 767px) {
+  .Tablas i{
+      font-size: 40px;
+      margin-bottom: 1em;
+  }
+}
+
+@media all and (min-width:767px) and (max-width:992px){
+  .Tablas i{
+      font-size: 40px;
+      margin-top: 5px;
+  }
+  
+}
+
