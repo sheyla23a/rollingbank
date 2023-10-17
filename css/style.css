@@ -1,54 +1,50 @@
- QuienesSomos
-.Banner{
-    height: 20vh;
+QuienesSomos .Banner {
+  height: 20vh;
 }
 
-.Banner h2{
-    font-family: 'Titan One', sans-serif;
-    padding: 1em;
+.Banner h2 {
+  font-family: "Titan One", sans-serif;
+  padding: 1em;
 }
 
-.El-equipo{
-    margin-bottom: 5em;
+.El-equipo {
+  margin-bottom: 5em;
 }
 
 @media all and (max-width: 767px) {
-    .Banner {
-      text-align: center; 
-      height: auto; 
-    }
-  
-    .Banner h2 {
-      text-align: center; 
-      margin: 0; 
-    }
+  .Banner {
+    text-align: center;
+    height: auto;
   }
-  
 
-@media all and (min-width:767px) and (max-width:992px){
-    .Banner{
-        height: 15vh;
-    }
-    .Banner h2{
-    
-        font-size: 100px;
-    }
-    
+  .Banner h2 {
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media all and (min-width: 767px) and (max-width: 992px) {
+  .Banner {
+    height: 15vh;
+  }
+  .Banner h2 {
+    font-size: 100px;
+  }
 }
 /* inicio */
-.imgCarouselInicio{
-    height: 450px;
-    object-fit: cover;
+.imgCarouselInicio {
+  height: 450px;
+  object-fit: cover;
 }
-.iconosCardInicio{
-    font-size: 40px;
+.iconosCardInicio {
+  font-size: 40px;
 }
-.imgTelefonoInicio{
-    width: 1000px;
+.imgTelefonoInicio {
+  width: 1000px;
 }
-.iconosSeguridad{
-    font-size: 40px;
+.iconosSeguridad {
+  font-size: 40px;
 }
-.iconoSeccionSeguridad{
-    margin: 0;
+.iconoSeccionSeguridad {
+  margin: 0;
 }
