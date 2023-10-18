@@ -1,3 +1,4 @@
+ QuienesSomos
 .Banner{
     height: 20vh;
 }
@@ -39,4 +40,21 @@
         font-size: 100px;
     }
     
+  
+/* inicio */
+.imgCarouselInicio{
+    height: 450px;
+    object-fit: cover;
+}
+.iconosCardInicio{
+    font-size: 40px;
+}
+.imgTelefonoInicio{
+    width: 1000px;
+}
+.iconosSeguridad{
+    font-size: 40px;
+}
+.iconoSeccionSeguridad{
+    margin: 0;
 }
