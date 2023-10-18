@@ -11,7 +11,10 @@
 .El-equipo {
   margin-bottom: 5em;
 }
-
+.Logo{
+  font-family:'Titan One', sans-serif ;
+  font-size: 30px;
+}
 /* seguridad */
 .tamanioTituloSeguridad{
     font-size: 16px;
@@ -19,59 +22,6 @@
 
 .tamanioTxtSeguridad{
     font-size: 12px;
-}
-
-@media all and (min-width:576px) and (max-width:767px) {
-    /* seguridad */
-    .tamanioTituloSeguridad{
-        font-size: 17px;
-    }
-    .tamanioTxtSeguridad{
-        font-size: 13px;
-    }
-}
-
-@media all and (max-width: 767px) {
-  .Banner {
-    text-align: center;
-    height: auto;
-  }
-
-@media all and (min-width:767px) and (max-width:992px){
-    .Banner{
-        height: 15vh;
-    }
-    .Banner h2{
-    
-        font-size: 100px;
-    }
-    /* seguridad */
-    .tamanioTituloSeguridad{
-        font-size: 20px;
-    }
-    .tamanioTxtSeguridad{
-        font-size: 14px;
-    }
-}
-
-@media all and (min-width:992px) and (max-width:1200px){
-    /* seguridad */
-    .tamanioTituloSeguridad{
-        font-size: 22px;
-    }
-    .tamanioTxtSeguridad{
-        font-size: 14px;
-    }
-}
-
-@media all and (min-width:1200px){
-    /* seguridad */
-    .tamanioTituloSeguridad{
-        font-size: 24px;
-    }
-    .tamanioTxtSeguridad{
-        font-size: 17px;
-    }
 }
 
 /* inicio */
@@ -100,11 +50,30 @@
   font-size: 30px;
   margin-top: 5px;
 }
-
+@media all and (min-width:576px) and (max-width:767px) {
+    /* seguridad */
+    .tamanioTituloSeguridad{
+        font-size: 17px;
+    }
+    .tamanioTxtSeguridad{
+        font-size: 13px;
+    }
+  }
 @media all and (max-width: 767px) {
   .Tablas i{
       font-size: 40px;
       margin-bottom: 1em;
+  }
+  .Banner {
+      text-align: center; 
+      height: auto; 
+  }
+  .imagen-usuarios{
+      width: 40%;
+    }
+  .Banner {
+    text-align: center;
+    height: auto;
   }
 }
 
@@ -113,6 +82,36 @@
       font-size: 40px;
       margin-top: 5px;
   }
-  
+  .Banner{
+        height: 15vh;
+    }
+    .Banner h2{
+        font-size: 100px;
+    }
+  /* seguridad */
+    .tamanioTituloSeguridad{
+        font-size: 20px;
+    }
+    .tamanioTxtSeguridad{
+        font-size: 14px;
+    }
+}
+@media all and (min-width:992px) and (max-width:1200px){
+    /* seguridad */
+    .tamanioTituloSeguridad{
+        font-size: 22px;
+    }
+    .tamanioTxtSeguridad{
+        font-size: 14px;
+    }
 }
 
+@media all and (min-width:1200px){
+    /* seguridad */
+    .tamanioTituloSeguridad{
+        font-size: 24px;
+    }
+    .tamanioTxtSeguridad{
+        font-size: 17px;
+    }
+}
