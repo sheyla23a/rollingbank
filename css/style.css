@@ -36,6 +36,7 @@
     text-align: center;
     height: auto;
   }
+}
 
 @media all and (min-width:767px) and (max-width:992px){
     .Banner{
