@@ -1,80 +1,69 @@
 /*QuienesSomos*/
-.Banner{
-    height: 20vh;
+.Banner {
+  height: 20vh;
 }
-
 .Banner h2 {
   font-family: "Titan One", sans-serif;
   padding: 1em;
 }
-
 .El-equipo {
   margin-bottom: 5em;
 }
-
 /* seguridad */
-.tamanioTituloSeguridad{
-    font-size: 16px;
+.tamanioTituloSeguridad {
+  font-size: 16px;
 }
-
-.tamanioTxtSeguridad{
-    font-size: 12px;
+.tamanioTxtSeguridad {
+  font-size: 12px;
 }
-
-@media all and (min-width:576px) and (max-width:767px) {
-    /* seguridad */
-    .tamanioTituloSeguridad{
-        font-size: 17px;
-    }
-    .tamanioTxtSeguridad{
-        font-size: 13px;
-    }
+@media all and (min-width: 576px) and (max-width: 767px) {
+  /* seguridad */
+  .tamanioTituloSeguridad {
+    font-size: 17px;
+  }
+  .tamanioTxtSeguridad {
+    font-size: 13px;
+  }
 }
-
 @media all and (max-width: 767px) {
   .Banner {
     text-align: center;
     height: auto;
   }
 }
-
-@media all and (min-width:767px) and (max-width:992px){
-    .Banner{
-        height: 15vh;
-    }
-    .Banner h2{
-    
-        font-size: 100px;
-    }
-    /* seguridad */
-    .tamanioTituloSeguridad{
-        font-size: 20px;
-    }
-    .tamanioTxtSeguridad{
-        font-size: 14px;
-    }
+@media all and (min-width: 767px) and (max-width: 992px) {
+  .Banner {
+    height: 15vh;
+  }
+  .Banner h2 {
+    font-size: 100px;
+  }
+  /* seguridad */
+  .tamanioTituloSeguridad {
+    font-size: 20px;
+  }
+  .tamanioTxtSeguridad {
+    font-size: 14px;
+  }
 }
-
-@media all and (min-width:992px) and (max-width:1200px){
-    /* seguridad */
-    .tamanioTituloSeguridad{
-        font-size: 22px;
-    }
-    .tamanioTxtSeguridad{
-        font-size: 14px;
-    }
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  /* seguridad */
+  .tamanioTituloSeguridad {
+    font-size: 22px;
+  }
+  .tamanioTxtSeguridad {
+    font-size: 14px;
+  }
 }
-
-@media all and (min-width:1200px){
-    /* seguridad */
-    .tamanioTituloSeguridad{
-        font-size: 24px;
-    }
-    .tamanioTxtSeguridad{
-        font-size: 17px;
-    }
+@media all and (min-width: 1200px) {
+  /* seguridad */
+  .tamanioTituloSeguridad {
+    font-size: 24px;
+  }
+  .tamanioTxtSeguridad {
+    font-size: 17px;
+  }
 }
-
 /* inicio */
 .imgCarouselInicio {
   height: 450px;
@@ -92,28 +81,22 @@
 .iconoSeccionSeguridad {
   margin: 0;
 }
-
-.TituloBanner h2{
-  font-family: 'Titan One', sans-serif;
+.TituloBanner h2 {
+  font-family: "Titan One", sans-serif;
 }
-
-.Tablas i{
+.Tablas i {
   font-size: 30px;
   margin-top: 5px;
 }
-
 @media all and (max-width: 767px) {
-  .Tablas i{
-      font-size: 40px;
-      margin-bottom: 1em;
+  .Tablas i {
+    font-size: 40px;
+    margin-bottom: 1em;
   }
 }
-
-@media all and (min-width:767px) and (max-width:992px){
-  .Tablas i{
-      font-size: 40px;
-      margin-top: 5px;
+@media all and (min-width: 767px) and (max-width: 992px) {
+  .Tablas i {
+    font-size: 40px;
+    margin-top: 5px;
   }
-  
 }
-
